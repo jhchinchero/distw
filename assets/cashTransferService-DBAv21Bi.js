@@ -1,0 +1,1 @@
+import{G as a}from"./index-CR-I1kTU.js";const r={list:(s={})=>a.get("/cash-transfers",{params:s}),show:s=>a.get(`/cash-transfers/${s}`),balance:s=>a.get(`/cash-transfers/balance/${s}`),create:s=>a.post("/cash-transfers",s),summary:(s={})=>a.get("/cash-transfers/summary",{params:s}),exportCsv:(s={})=>a.get("/cash-transfers/export",{params:s,responseType:"blob"})};export{r as c};
